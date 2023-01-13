@@ -1,0 +1,31 @@
+@startuml
+
+class Ex2_java{
+    + String[] createTextFiles (int, int, int)
+    + int getNumOfLines (String[])
+    + int getNumOfLinesThreads (String[])
+    + int getNumOfLinesThreadPool (String[])
+
+}
+
+class CountNumOfLinesThreads extends Thread implements Runnable{
+    - String filename
+    - static int numberOfLines = 0
+
+    + CountNumOfLinesThreads (String)
+    + void resetNumberOfLines()
+    + void run()
+    + int getNumberOfLines()
+}
+
+static class CountNumOfLinesThreadPool implements Callable {
+   - String fileName;
+   - static int counter=0;
+   + CountNumOfLinesThreadPool(String fileName)
+   + Integer call()
+}
+
+Ex2_java #-- CountNumOfLinesThreads
+Ex2_java #-- CountNumOfLinesThreadPool
+
+@enduml
