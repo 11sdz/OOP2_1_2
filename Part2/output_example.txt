@@ -1,0 +1,90 @@
+Jan 13, 2023 12:18:41 PM Tests myTest
+INFO: Task number = 3  , MyFutureTask{task={Task@37574691 ,TaskType= IO-Bound Task}}
+Current maximum = 1
+Jan 13, 2023 12:18:41 PM Tests myTest
+INFO: Task number = 1  , MyFutureTask{task={Task@35fc6dc4 ,TaskType= IO-Bound Task}}
+Current maximum = 1
+Jan 13, 2023 12:18:41 PM Tests myTest
+INFO: Task number = 2  , MyFutureTask{task={Task@7fe8ea47 ,TaskType= Computational Task}}
+Current maximum = 1
+Jan 13, 2023 12:18:41 PM Tests myTest
+INFO: Task number = 4  , MyFutureTask{task={Task@226a82c4 ,TaskType= Computational Task}}
+Current maximum = 1
+Jan 13, 2023 12:18:42 PM Tests myTest
+INFO: Task number = 6  , MyFutureTask{task={Task@731f8236 ,TaskType= Computational Task}}
+Current maximum = 1
+Jan 13, 2023 12:18:42 PM Tests myTest
+INFO: Task number = 8  , MyFutureTask{task={Task@255b53dc ,TaskType= Computational Task}}
+Current maximum = 1
+Jan 13, 2023 12:18:42 PM Tests myTest
+INFO: Task number = 12  , MyFutureTask{task={Task@1dd92fe2 ,TaskType= Computational Task}}
+Current maximum = 1
+Jan 13, 2023 12:18:42 PM Tests myTest
+INFO: Task number = 22  , MyFutureTask{task={Task@6b53e23f ,TaskType= Computational Task}}
+Current maximum = 1
+Jan 13, 2023 12:18:43 PM Tests myTest
+INFO: Task number = 14  , MyFutureTask{task={Task@64d2d351 ,TaskType= Computational Task}}
+Current maximum = 1
+Jan 13, 2023 12:18:43 PM Tests myTest
+INFO: Task number = 24  , MyFutureTask{task={Task@1b68b9a4 ,TaskType= Computational Task}}
+Current maximum = 1
+Jan 13, 2023 12:18:43 PM Tests myTest
+INFO: Task number = 16  , MyFutureTask{task={Task@4f9a3314 ,TaskType= Computational Task}}
+Current maximum = 1
+Jan 13, 2023 12:18:43 PM Tests myTest
+INFO: Task number = 26  , MyFutureTask{task={Task@3b2c72c2 ,TaskType= Computational Task}}
+Current maximum = 2
+Jan 13, 2023 12:18:44 PM Tests myTest
+INFO: Task number = 18  , MyFutureTask{task={Task@491666ad ,TaskType= Computational Task}}
+Current maximum = 2
+Jan 13, 2023 12:18:44 PM Tests myTest
+INFO: Task number = 21  , MyFutureTask{task={Task@176d53b2 ,TaskType= IO-Bound Task}}
+Current maximum = 2
+Jan 13, 2023 12:18:44 PM Tests myTest
+INFO: Task number = 28  , MyFutureTask{task={Task@971d0d8 ,TaskType= Computational Task}}
+Current maximum = 2
+Jan 13, 2023 12:18:44 PM Tests myTest
+INFO: Task number = 31  , MyFutureTask{task={Task@51931956 ,TaskType= IO-Bound Task}}
+Current maximum = 2
+Jan 13, 2023 12:18:45 PM Tests myTest
+INFO: Task number = 17  , MyFutureTask{task={Task@2b4a2ec7 ,TaskType= IO-Bound Task}}
+Current maximum = 2
+Jan 13, 2023 12:18:45 PM Tests myTest
+INFO: Task number = 19  , MyFutureTask{task={Task@564718df ,TaskType= IO-Bound Task}}
+Current maximum = 2
+Jan 13, 2023 12:18:45 PM Tests myTest
+INFO: Task number = 29  , MyFutureTask{task={Task@51b7e5df ,TaskType= IO-Bound Task}}
+Current maximum = 2
+Jan 13, 2023 12:18:45 PM Tests myTest
+INFO: Task number = 13  , MyFutureTask{task={Task@18a70f16 ,TaskType= IO-Bound Task}}
+Current maximum = 2
+Jan 13, 2023 12:18:45 PM Tests myTest
+INFO: Task number = 23  , MyFutureTask{task={Task@62e136d3 ,TaskType= IO-Bound Task}}
+Current maximum = 2
+Jan 13, 2023 12:18:45 PM Tests myTest
+INFO: Task number = 27  , MyFutureTask{task={Task@c8e4bb0 ,TaskType= IO-Bound Task}}
+Current maximum = 3
+Jan 13, 2023 12:18:45 PM Tests myTest
+INFO: Task number = 7  , MyFutureTask{task={Task@6279cee3 ,TaskType= IO-Bound Task}}
+Current maximum = 3
+Jan 13, 2023 12:18:45 PM Tests myTest
+INFO: Task number = 9  , MyFutureTask{task={Task@4206a205 ,TaskType= IO-Bound Task}}
+Current maximum = 3
+Jan 13, 2023 12:18:45 PM Tests myTest
+INFO: Task number = 25  , MyFutureTask{task={Task@29ba4338 ,TaskType= Unknown Task}}
+Current maximum = 3
+Jan 13, 2023 12:18:45 PM Tests myTest
+INFO: Task number = 20  , MyFutureTask{task={Task@57175e74 ,TaskType= Unknown Task}}
+Current maximum = 3
+Jan 13, 2023 12:18:45 PM Tests myTest
+INFO: Task number = 15  , MyFutureTask{task={Task@7bb58ca3 ,TaskType= Unknown Task}}
+Current maximum = 3
+Jan 13, 2023 12:18:46 PM Tests myTest
+INFO: Task number = 10  , MyFutureTask{task={Task@c540f5a ,TaskType= Unknown Task}}
+Current maximum = 3
+Jan 13, 2023 12:18:46 PM Tests myTest
+INFO: Task number = 5  , MyFutureTask{task={Task@770c2e6b ,TaskType= Unknown Task}}
+Current maximum = 3
+Jan 13, 2023 12:18:46 PM Tests myTest
+INFO: Task number = 30  , MyFutureTask{task={Task@1a052a00 ,TaskType= Unknown Task}}
+Current maximum = 3

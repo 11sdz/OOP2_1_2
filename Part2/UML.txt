@@ -1,0 +1,72 @@
+@startuml
+skinparam backgroundColor DimGray
+skinparam roundworm 15
+skinparam stereotypeCBackgroundColor White
+skinparam classFontColor Black
+skinparam classFontSize 14
+skinparam DomainBackgroundColor BLUE
+skinparam ArrowColor BLACK
+skinparam ClassBackgroundColor White
+skinparam ClassBorderColor Black
+skinparam ClassFontColor Black
+skinparam ClassAttributeFontColor Black
+skinparam ClassAttributeFontSize 12
+
+class CustomExecutor{
+-MyThreadPoolExecutor : poolExecutor
+-int :cores
+-int : currentMax
+-PriorityBlockingQueue : blockingQueue
++CustomExecutor() : constructor
++Future submit(task)
++Future submit(callable,taskType)
++int getCurrentMax()
++boolean isActive()
++void gracefullyTerminate()
+}
+
+class Task implements Callable{
+-TaskType : taskType
+-Callable : callable
+-long : triggered
++{static} Task createTask(callable,taskType)
++{static} Task createTask(callable)
++TaskType getTaskType()
++long getTriggered()
++void setTriggered()
++T call()
+}
+
+class MyFutureTask extends FutureTask implements Comparable {
+-Task : task
++MyFutureTask(callable)
++compareTo(o)
++getTask()
++String toString()
+}
+
+enum TaskType{
+COMPUTATIONAL = 1
+IO = 2
+OTHER = 3
+-int : typePriority
+-TaskType(priority)
++void setPriority(int priority)
++int getPriorityValue()
++TaskType getType()
+}
+
+class MyThreadPoolExecutor extends ThreadPoolExecutor{
+-TaskType currentTaskType
+#void beforeExecute(t,r)
+#RunnableFuture newTaskFor(callable)
++int getTaskType()
+}
+
+TaskType->Task
+Task->MyFutureTask
+CustomExecutor*---MyThreadPoolExecutor
+MyFutureTask->MyThreadPoolExecutor
+CustomExecutor<--Task
+
+@enduml
