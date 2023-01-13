@@ -52,5 +52,8 @@ First we can see that in each row in the table (meaning for each number of files
 The running time of getNumOfLinesThreads is better than getNumOfLines's running time, because it uses Threads, that allows execution of tasks in parallel. But we can see that as the number of lines increase, the adventages of it reduced.
 We can see that the running time of getNumOfLinesThreadPool is the lowest in most of the rows (except for those with fewer lines) and does not rise dramatically as the number of lines rise, in contrast to getNumOfLines. The reason for that is the fact that thread pool is more effective. The threads are already created and ready to take on new tasks, which reduces the time required to create new threads and makes the program more efficient.
 
+## UML
+![alt text](https://github.com/11sdz/OOP2_1_2/blob/main/Part1/UML.png)
+
 ## Testing
 We created a test class using the UniTest library to test all the public functions of Ex2_1.
