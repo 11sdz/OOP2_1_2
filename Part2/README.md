@@ -29,3 +29,4 @@ the Executor , has a main method to submit Tasks , and a method to gracefully sh
 the project was test using the UniTest library. 
 
 ## UML
+![alt text](https://github.com/11sdz/OOP2_1_2/blob/main/Part2/UML.png)
