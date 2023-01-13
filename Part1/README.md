@@ -12,7 +12,9 @@ being an OOP course we had to make our classes to accomplish out desired design 
 | Ex2_1 | The class contains all 4 methods (creating text files,getNumOfLines , getNumOfLinesThreads , getNumOfLinesThreadPool) and 2 nested classes (CountNumOfLinesThreads , CountNumOfLinesThreadPool) |
 ## Algorithm
 getNumOfLines a simple counter an iteration on all files each time open file and count each file using counter.
+
 getNumOfLinesThreads allows execution of tasks parallel each thread counts a line at a time and updating the counter.
+
 getNumOfLinesThreadPool opens a fixed number of thread , each thread assigned to a file and counts its lines. at the end we sum all threads results.
 
 ## Comparison Time in seconds
